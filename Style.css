@@ -1,0 +1,153 @@
+html {
+    background: linear-gradient(180deg, rgba(202, 173, 173, 0.5), rgba(196, 109, 109, 0.5), rgba(197, 27, 27, 0.5));
+    height: auto;
+    min-height: 100%;
+}
+
+
+
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+
+
+
+/*the Navagation bar looks and functions*/
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 1px;
+    padding: 2px;
+    font-size: 20px;
+    background-color: rgba(197, 27, 27, 0.5);
+    justify-content: start;
+
+}
+
+.navbar a {
+    border: 2px solid black;
+    margin: 1px;
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+
+.navbar a:hover {
+    background-color: rgba(197, 27, 27, 0.8);
+    color: white;
+}
+
+
+
+
+/*table for the dog information*/
+
+
+th {
+    background-color: rgba(197, 27, 27, 0.5);
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 20px;
+
+
+}
+
+td {
+    background-color: rgba(197, 27, 27, 0.5);
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+
+
+}
+
+
+/*info about the dogs*/
+.doginfo {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+
+}
+
+.doginfo p {
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+}
+
+/*layout of images*/
+.dogphotos {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 230px;
+
+}
+
+.dogphotos img {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+/*layout for puppy table on home tab*/
+#puppytable {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#puppytable th {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#puppytable img {
+    height: 300px;
+    width: 400px;
+
+}
+
+/*layout for the form*/
+.align-left {
+    text-align: left;
+    font-size: 35px;
+}
+
+.voteform {
+    font-size: 30px;
+    margin-top: 20px;
+    width: 15%;
+    border: 2px solid black;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(197, 27, 27, 0.25);
+}
